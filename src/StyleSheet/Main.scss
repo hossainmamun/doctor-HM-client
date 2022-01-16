@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Teko:wght@300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: "Teko", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Source Sans Pro", sans-serif;
+}
+h1,
+h2 {
+    font-family: "Teko", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 10px 0 25px;
+}
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Teko", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+h1{
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+}
+h2{
+    font-size: clamp(1.8rem, 5vw, 2.7rem);
+}
+// button default style
+.hm-btn {
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    padding: 12px 18px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.div-spacing{
+    margin-bottom: 120px;
+}

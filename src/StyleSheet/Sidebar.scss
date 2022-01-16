@@ -1,0 +1,18 @@
+
+.sidebar{
+    .nav-link{
+        color: #001D3D;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: clamp(1.1rem, 5vw, 1.3rem);
+        transition: .3s ease-in-out;
+        -webkit-transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -ms-transition: .3s ease-in-out;
+        -o-transition: .3s ease-in-out;
+        &:hover{
+            color: orangered;
+        }
+    }
+    
+}

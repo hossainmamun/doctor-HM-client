@@ -1,0 +1,29 @@
+.navigation {
+    background: #001d3d;
+    .navbar-brand {
+        color: #fff;
+        font-size: 2.1rem;
+        font-weight: 700;
+    }
+    .nav-link {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin: 0 10px;
+        letter-spacing: 1px;
+        display: inline-block;
+
+        &:hover {
+            color: orange;
+        }
+    }
+    .btn:hover{
+        color: #fff !important;
+    }
+    .navbar-toggler{
+        border: 1px solid #fff;
+    }
+}
+
+

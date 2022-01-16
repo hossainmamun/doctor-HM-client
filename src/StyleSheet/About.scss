@@ -1,0 +1,25 @@
+#about{
+    
+    img{
+        height: 650px;
+        width: 80%;
+    }
+    .progress-list{
+        margin: 30px 0 0;
+        label{
+            text-transform: capitalize;
+            font-size: 1.2rem;
+        }
+    }
+    .progress{
+        margin: 0 0 20px 0;
+    }
+}
+
+@media(max-width: 776px){
+    #about{
+        img{
+            width: 100%;
+        }
+    }
+}
