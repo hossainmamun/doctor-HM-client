@@ -56,7 +56,7 @@ const AddDoctors = () => {
             .then(data => {
                 setDoctors(data)
             })
-    })
+    }, [])
 
     return (
         <div>

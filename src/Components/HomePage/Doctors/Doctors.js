@@ -13,7 +13,7 @@ const Doctors = () => {
       .then(data => {
         setDoctors(data)
       })
-  })
+  }, [])
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;

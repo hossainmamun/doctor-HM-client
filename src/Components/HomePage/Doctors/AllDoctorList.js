@@ -9,7 +9,7 @@ const AllDoctorList = (props) => {
             .then(data => {
                 setDoctors(data)
             })
-    })
+    }, [])
     return (
         <div className='container'>
             <div className='text-center' style={{ marginTop: '100px' }}>
