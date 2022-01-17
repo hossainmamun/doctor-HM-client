@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Account from "./Components/Account/Account.js";
 import AddBlogs from "./Components/Dashboard/AddBlogs.js";
